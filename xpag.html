@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XPAG • Soluções de Pagamento</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-inter antialiased text-gray-800">
+
+  <!-- Header Fixo -->
+  <header class="fixed inset-x-0 top-0 bg-white shadow-sm z-50">
+    <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+      <img src="/Logos/logo_transparent_background.png" alt="XPAG" class="h-10">
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#inicio" class="hover:text-blue-600">Início</a>
+        <a href="#vantagens" class="hover:text-blue-600">Vantagens</a>
+        <a href="#faq" class="hover:text-blue-600">FAQ</a>
+        <a href="#contato" class="hover:text-blue-600">Contato</a>
+      </nav>
+      <button class="md:hidden focus:outline-none">
+        <!-- ícone hamburguer -->
+      </button>
+    </div>
+  </header>
+
+  <main class="pt-24">
+
+    <!-- Seção Hero -->
+    <section id="inicio" class="bg-gray-100">
+      <div class="max-w-4xl mx-auto px-6 text-center py-20">
+        <h1 class="text-4xl md:text-5xl font-bold text-blue-900">Bem-vindo à XPAG</h1>
+        <p class="mt-4 text-lg text-gray-700">Soluções de pagamento práticas e seguras para o seu negócio.</p>
+        <a href="#contato" class="mt-8 inline-block bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-full px-8 py-4 transition">Comece Agora</a>
+      </div>
+    </section>
+
+    <!-- Seção Vantagens -->
+    <section id="vantagens" class="py-20">
+      <div class="max-w-5xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold text-blue-900">Por que escolher a XPAG?</h2>
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="./Logos/tempo-rapido.png" alt="Instantâneo" class="mx-auto h-16">
+            <h3 class="mt-4 font-semibold text-xl">Pagamentos Instantâneos</h3>
+            <p class="mt-2 text-gray-600">Receba seus pagamentos com rapidez e segurança.</p>
+          </div>
+          <!-- Card 2 -->
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="./Logos/intuitivo.png" alt="Intuitivo" class="mx-auto h-16">
+            <h3 class="mt-4 font-semibold text-xl">Plataforma Intuitiva</h3>
+            <p class="mt-2 text-gray-600">Gerencie suas transações com facilidade e controle.</p>
+          </div>
+          <!-- Card 3 -->
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="./Logos/suporte-tecnico.png" alt="Suporte" class="mx-auto h-16">
+            <h3 class="mt-4 font-semibold text-xl">Suporte Especializado</h3>
+            <p class="mt-2 text-gray-600">Conte com nossa equipe em cada etapa do processo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção FAQ -->
+    <section id="faq" class="bg-gray-100 py-20">
+      <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center text-blue-900">Perguntas Frequentes</h2>
+        <div class="mt-8 space-y-4">
+          <!-- Accordion -->
+          <details class="bg-white p-4 rounded-lg shadow">
+            <summary class="font-medium cursor-pointer">Como a XPAG funciona?</summary>
+            <p class="mt-2 text-gray-600">A XPAG conecta sua empresa ao nosso gateway de pagamento, oferecendo controle total das transações...</p>
+          </details>
+          <details class="bg-white p-4 rounded-lg shadow">
+            <summary class="font-medium cursor-pointer">É necessário ter CNPJ?</summary>
+            <p class="mt-2 text-gray-600">Sim, para utilizar nossos serviços você deve possuir CNPJ ativo...</p>
+          </details>
+          <details class="bg-white p-4 rounded-lg shadow">
+            <summary class="font-medium cursor-pointer">Há taxas de adesão?</summary>
+            <p class="mt-2 text-gray-600">Não cobramos taxa de adesão. Você paga apenas uma taxa por transação realizada...</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="py-20">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold text-blue-900">Fale com a gente</h2>
+        <p class="mt-4 text-gray-700">Entre em contato para mais informações sobre a XPAG.</p>
+        <a href="mailto:contato@xpag.com.br" class="mt-8 inline-block bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-full px-8 py-4 transition">Entrar em contato</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-blue-900 text-white py-6">
+    <div class="max-w-4xl mx-auto text-center">
+      © 2025 XPAG. Todos os direitos reservados.
+    </div>
+  </footer>
+
+</body>
+</html>
